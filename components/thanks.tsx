@@ -1,7 +1,7 @@
 import VideoThumb from '@/public/images/hero-image-01.jpg'
 import ModalVideo from '@/components/modal-video'
 
-export default function Hero() {
+export default function Thanks() {
   return (
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6 relative">
@@ -23,22 +23,11 @@ export default function Hero() {
         <div className="relative pt-32 pb-10 md:pt-40 md:pb-16">
 
           {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-2 md:pb-2">
-            <h1 className="h2 mb-4" data-aos="fade-up">Управление вашим компьютером из любой точки мира</h1>
-            <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">Позволяет вам оставаться на связи с вашими устройствами в любое время и из любого места. Настройте всего один раз и наслаждайтесь безупречной работой на любых устройствах.</p>
+          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-12">
+            <h1 className="h1 mb-12" data-aos="fade-up">Добро пожаловать к нам!</h1>
+            <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">Спасибо за выбор нашего продукта для удаленного управления компьютером. Мы готовы помочь вам в удобном удаленном управлении компьютером.</p>
           </div>
-
-          <ModalVideo
-            thumb={VideoThumb}
-            thumbWidth={1024}
-            thumbHeight={576}
-            thumbAlt="Modal video thumbnail"
-            video="/videos/video.mp4"
-            videoWidth={1920}
-            videoHeight={1080} />
-
         </div>
-
       </div>
     </section>
   )
